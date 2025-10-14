@@ -48,8 +48,8 @@ cleanall:
 	rm -fr obj/*
 	rm build/game
 push:
-	git remote set-url origin \
-		git@github.com:Feavr555/HISPA-LENGUAJE.git
+	git remote -v
+	git remote set-url origin git@github.com-Feavr555:Feavr555/HISPA-LENGUAJE.git
 	git push -u origin main
 
 win32: $(WPROJ)
