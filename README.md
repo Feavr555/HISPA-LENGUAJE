@@ -7,18 +7,12 @@
 
 <h2>Forma de compilar:</h2>
 <p>Con CMake, ejecute el comando:</p>
-```bash
-cmake -S . -B build -G "Unix Makefiles"
-```
-<p>Con make:</p>
-```bash
-make
-```
-```html
 <pre>
-$ echo "Bienvenido a mi proyecto"
-Copyright (C) 2025 Nombre del autor
-Licencia: GPLv3 con extensiones
-Este software se proporciona "tal cual", sin garantía.
+$ cmake -S . -B build -G "Unix Makefiles"
 </pre>
+<p>Con make:</p>
+<pre>
+$ make
+</pre>
+
 
