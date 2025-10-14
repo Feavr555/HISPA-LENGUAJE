@@ -1,8 +1,8 @@
 # HISPA-LENGUAJE
 <h1>Lenguaje Hispa</h1>
 
-<h2>Este lenguaje esta pensado para ser desarrollado para la hispanidad.</h2>
-<h2>Además se encontrará bajo la licencia GNU Public, del Software Libre.</h2>
+<p>Este lenguaje esta pensado para ser desarrollado para la hispanidad.</p>
+<p>Además se encontrará bajo la licencia GNU Public, del Software Libre.</p>
 
 
 <h2>Forma de compilar:</h2>
