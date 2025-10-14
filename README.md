@@ -14,4 +14,11 @@ cmake -S . -B build -G "Unix Makefiles"
 ```bash
 make
 ```
+```html
+<pre>
+$ echo "Bienvenido a mi proyecto"
+Copyright (C) 2025 Nombre del autor
+Licencia: GPLv3 con extensiones
+Este software se proporciona "tal cual", sin garantía.
+</pre>
 
