@@ -52,6 +52,13 @@ push:
 	git remote set-url origin git@github.com-Feavr555:Feavr555/HISPA-LENGUAJE.git
 	git push -u origin main
 
+pull:
+	git pull origin main
+
+fetch:
+	git fetch origin
+	git merge origin/main
+
 win32: $(WPROJ)
 
 

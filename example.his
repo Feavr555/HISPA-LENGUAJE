@@ -1,0 +1,45 @@
+#importar
+#necesito
+#incluir
+
+r string = { "Hola Mundo!!!" }
+mostrar(string)
+r num = { 1,2,3,4,5 }
+r2 vec = { (1,2),(2,3) }
+
+
+imprimir("")
+imp("")
+mostrar("")
+
+r run = { 1 }
+mientras run:
+	mostrar("Corriendo: ",run)
+	run = run+1;
+	si run = 8:
+		run = 0
+
+
+r run = { 1,0,8 }
+mientras run:
+	mostrar("Corriendo: ",run)
+	run = run+1; // Suma uno al primero (o a todos?)
+	run[1] = run // Asigna el primero al segundo
+	si run = 8: // Suma todos los valores y comprueba
+		run = 0
+
+
+
+r msg = { "Mensaje!" }
+r num = { 8 }
+por rango(i entre num):
+	mostrar(msg,i)
+
+
+r2 vec1 = { 1,2 }
+r2 vec2 = { 3,4 }+vec1 // Suma vectorial
+
+r3 vec3 = { 3,4,7 }
+r3 vec4 = { 5,9,3 }
+r3 vec5 = vec3 x vec4 // Producto vectorial
+r3 vec6 = vec3 * vec4 // Producto interno de vectores
