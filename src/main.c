@@ -1,11 +1,9 @@
 #include <utils.h>
-
+#include <lexer.h>
 
 int main(int argc,char**argv)
 {
-	char *buffer = __read(argv[1]);
-	___interpeter(buffer);
-	free(buffer);
+	__lexer(argv[1]);
 	return 0;
 }
 
