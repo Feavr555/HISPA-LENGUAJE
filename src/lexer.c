@@ -1,5 +1,6 @@
 #include <lexer.h>
 
+// TODO: Tokenizar fuente
 
 // TODO: Aquí leer el archivos y decomponer en partes:
 //	1_ Dependencias.
